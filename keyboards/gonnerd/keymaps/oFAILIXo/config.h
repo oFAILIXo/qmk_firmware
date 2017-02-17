@@ -40,4 +40,7 @@
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
 )
 
+/* enable tap-dance */
+#define TAPPING_TERM 200
+
 #endif
