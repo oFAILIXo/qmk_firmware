@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,        KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,              KC_LBRC,    KC_RBRC,               KC_BSLS,\
     OSL(1),        KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    TD(TD_COLN_SCLN),  KC_QUOT,    __x__,                 KC_ENT,\
     OSM(MOD_LSFT), __x__,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,            KC_SLSH,    MT(MOD_LSFT,KC_RALT),  TO(2), \
-    OSM(MOD_LCTL), KC_LGUI, OSM(MOD_LALT),                      LT(4, KC_SPC),                      KC_RALT,           KC_APP,     MO(3),                 KC_RCTL),
+    OSM(MOD_LCTL), KC_LGUI, OSM(MOD_LALT),                      LT(4, KC_SPC),                      KC_RALT,           KC_MENU,     MO(3),                 KC_RCTL),
 
 	
 [FUNCTION_LAYER] = KEYMAP_60(
