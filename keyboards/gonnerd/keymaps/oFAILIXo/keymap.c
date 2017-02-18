@@ -51,15 +51,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS,	KC_TRNS,	KC_TRNS,                        				KC_TRNS,                         				KC_TRNS,	KC_TRNS,	KC_TRNS,	KC_TRNS),
 };
 
-//Tap Dance Declarations
-enum {
-	TD_COLN_SCLN = 0
-};
-
-//Tap Dance Definitions
-qk_tap_dance_action_t tap_dance_actions[] = {
-//Tap once for Colon, twice for Semicolon
-[TD_COLN_SCLN]  = ACTION_TAP_DANCE_DOUBLE(KC_COLN, KC_SCLN)
-// Other declarations would go here, separated by commas, if you have them
-};
 
