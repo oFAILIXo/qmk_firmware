@@ -6,8 +6,6 @@
 #define GAMING_LAYER 2
 #define SYSTEM_LAYER 3
 #define SPACE_LAYER 4
-// Key aliases
-#define __x__ KC_NO
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	
