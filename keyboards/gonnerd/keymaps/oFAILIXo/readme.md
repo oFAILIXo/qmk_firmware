@@ -1,4 +1,4 @@
- FAILIX Nerd60 ANSI keymap with split BSPC and split RSFT layout.
+# FAILIX Nerd60 ANSI keymap with split BSPC and split RSFT layout.
  This keymap features one-shot modifiers for left hand mods.
  RSFT is RALT on tap and LSFT on hold.
  Space-Fn where holding space activates cursor and mouse movement layer.
